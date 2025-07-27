@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F8FF;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.main-hero {
+ 
+    background-image: url('./Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6366f1;
+}
+
+.sign-up-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sign-up-btn:hover {
+    background-color: #5856eb;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: #5856eb;
+}
+
+
+.preview-section {
+    padding: 80px 0;
+}
+
+.preview-content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.preview-text {
+    flex: 1;
+}
+
+.preview-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.preview-text p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.preview-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.preview-btn:hover {
+    background-color: #5856eb;
+}
+
+.preview-image {
+    flex: 1;
+}
+
+.preview-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
