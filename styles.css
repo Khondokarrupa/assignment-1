@@ -235,3 +235,97 @@ body {
     font-size: 14px;
     color: #666;
 }
+
+
+.focus-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.focus-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.focus-image {
+    margin-top: 50px;
+}
+
+.focus-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.contact-section {
+    padding: 80px 0;
+}
+
+.contact-content {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.contact-text {
+    flex: 1;
+}
+
+.contact-text h2 {
+    font-size: 88px;
+    font-weight: bold;
+}
+
+.contact-form {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #5856eb;
+}
